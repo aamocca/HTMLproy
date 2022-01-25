@@ -1,36 +1,42 @@
 body {
-    font-family: "Roboto", sans-serif;
-    color: #03264c;
+  font-family: "Roboto", sans-serif;
+  color: #03264c;
 }
 
 header {
-    background-color: #ebebeb;
+  background-color: #ebebeb;
 }
 
 .cuerpos {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .titulares {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .precios {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .descuento {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .descripciones {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .azul {
-    color: #03264c;
+  color: #03264c;
 }
 
 .yellow {
-    background-color: #eac926;
+  background-color: #eac926;
+}
+
+.respmenu a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
 }
