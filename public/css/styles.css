@@ -1,5 +1,10 @@
 body {
     font-family: "Roboto", sans-serif;
+    color: #03264c;
+}
+
+header {
+    background-color: #ebebeb;
 }
 
 .cuerpos {
@@ -24,4 +29,8 @@ body {
 
 .azul {
     color: #03264c;
+}
+
+.yellow {
+    background-color: #eac926;
 }
