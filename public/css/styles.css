@@ -34,3 +34,12 @@ header {
 .yellow {
     background-color: #eac926;
 }
+
+.centrado {
+    text-align: center;
+}
+
+.iconos {
+    width: 2em;
+    margin-inline: 10px;
+}
