@@ -40,3 +40,12 @@ header {
   text-decoration: none;
   display: block;
 }
+
+.centrado {
+  text-align: center;
+}
+
+.iconos {
+  width: 2em;
+  margin-inline: 10px;
+}
