@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tienda</title>
     <link rel="stylesheet" href="/css/styles.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,500&display=swap" rel="stylesheet" />
@@ -15,25 +16,26 @@
 <body>
     <header>
         <img src="/img/logo-mercado-liebre.svg" alt="ola" width="150px" height="100px" />
-        <input type="search" value="" placeholder="Buscar" /> <br /><br />
+        <input class="buscador" type="search" value="" placeholder="Buscar" />
+        <br /><br />
         <a href="#">Comprá en cuotas y sin tarjeta de crédito</a><br /><br />
 
-        <nav>
-            <ul>
-                <li><a href="#"> Ofertas</a></li>
-                <li><a href="#">Tiendas Oficiales</a></li>
-                <li><a href="#">Vender</a></li>
-                <li><a href="#">Ayuda</a></li>
-            </ul>
-        </nav>
-
-        <nav>
-            <ul>
-                <li><a href="#">Creá tu cuenta</a></li>
-                <li><a href="#">Ingresá</a></li>
-                <li><a href="#">Mis compras</a></li>
-            </ul>
-        </nav>
+        <div class="respmenu">
+            <input type="checkbox" />
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times"></i>
+            <nav>
+                <ul>
+                    <li><a href="#"> Ofertas</a></li>
+                    <li><a href="#">Tiendas Oficiales</a></li>
+                    <li><a href="#">Vender</a></li>
+                    <li><a href="#">Ayuda</a></li>
+                    <li><a href="#">Creá tu cuenta</a></li>
+                    <li><a href="#">Ingresá</a></li>
+                    <li><a href="#">Mis compras</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <section class="yellow">
